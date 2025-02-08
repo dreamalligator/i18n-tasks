@@ -546,6 +546,12 @@ See [i18n-tasks wiki: CSV import and export tasks](https://github.com/glebm/i18n
 Tasks that come with the gem are defined in [lib/i18n/tasks/command/commands](lib/i18n/tasks/command/commands).
 Custom tasks can be added easily, see the examples [on the wiki](https://github.com/glebm/i18n-tasks/wiki#custom-tasks).
 
++
++Ignore specific values like in https://github.com/svenfuchs/rails-i18n:
++
++  rake i18n-spec:completeness SOURCE_FILEPATH DIRECTORY --ignore "errors.messages.{model_invalid,required}"
+
+
 # Development
 
 - Install dependencies using `bundle install`
